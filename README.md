@@ -21,8 +21,8 @@ Essa API fornece **CRUD completo** para produtos, com **validação de dados**, 
 1. Clonar o projeto
 
 ```bash
-git clone <url-do-projeto>
-cd api-rest-node
+git clone https://github.com/Trmxv9/DesafioAPiRestFul
+cd DesafioAPiRestFul
 ```
 
 2. Instalar dependências
