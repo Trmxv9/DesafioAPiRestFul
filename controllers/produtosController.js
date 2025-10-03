@@ -25,7 +25,7 @@ exports.getProdutos = async (req, res) => {
 
     if (isNaN(page) || page < 1) page = 1;
     if (isNaN(limit) || limit < 1) limit = 10;
-    if (limit > 100) limit = 100; // limite máximo pra não travar o banco
+    if (limit > 100) limit = 100;
 
     const offset = (page - 1) * limit;
 
