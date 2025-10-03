@@ -98,7 +98,7 @@ pnpm run dev ou npm run dev
 
 ### **2. Listar produtos (Read)**
 
-- `GET /produtos`
+- `GET /produtos ou /`
 - Query params opcionais:
 
   - `nome` → filtrar por nome (LIKE)
@@ -194,7 +194,7 @@ node scripts/gerador.js
 
 ## 💡 Dicas de teste
 
-- Use Postman ou Insomnia pra testar os endpoints
+- Use Postman ou Insomnia pra testar os endpoints 
 - Para busca rápida por nome:
 
 ```
@@ -219,7 +219,3 @@ GET /produtos?page=2&limit=10
 - Script de geração de produtos aleatórios (`scripts/gerador.js`) para testes rápidos
 
 ---
-
-## Autenticação
-
--
